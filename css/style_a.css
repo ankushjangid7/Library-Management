@@ -1,0 +1,100 @@
+/*********************************************
+
+	Author		: 	Izul Chaniago
+	Author URL 	:	http://www.izulcybercafe.com
+	Date		:	February 23, 2012
+
+**********************************************/
+
+@import url('reset.css');
+body{background:#333}
+#container{
+	border:1px solid #222;
+	width:600px;
+	height:409px;
+	margin:100px auto;
+	background:url(images/container.png) no-repeat;
+	border:1px solid #222;
+		/* rounded corners */
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		/* background color transition */
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		transition: 1s;
+		/* Shadow */
+	    -moz-box-shadow: 1px 1px 1px #262626;
+	    -webkit-box-shadow: 1px 1px 1px #262626;
+	    box-shadow: 1px 1px 50px #262626;	
+}
+
+#form-bg{
+	width:368px;
+	height:263px;
+	margin:73px auto;
+	background:url(images/form.png) no-repeat;
+}
+
+	form h2{
+		background:url(images/title.png) center no-repeat;
+		height:44px;
+		padding:20px;
+	}
+
+	form input.ftext{
+		text-align:center;
+		border:none;
+		background:url(images/field.png) top center no-repeat;
+		width:269px;
+		height:31px;
+		margin-left:50px;
+		margin-bottom:10px;
+		
+		/* Text */
+		font-size:18px;
+		font-family:'Adobe Garamond Pro', Tahoma, Arial;
+		font-weight:bold;
+		color:#d79116;
+		letter-spacing:1px;	
+	}
+
+	form input.fbutton{
+		border:none;
+		background:url(images/button.png) top center no-repeat;
+		width:285px;
+		height:57px;
+		margin-left:42px;
+		margin-bottom:18px;
+		cursor:pointer;
+	}
+	::-webkit-input-placeholder {
+	   font-size:18px;
+	   font-family:'Adobe Garamond Pro', Tahoma, Arial;
+	   font-weight:bold;
+	   color:#d79116;
+	   letter-spacing:1px;
+	}
+
+	:-moz-placeholder {
+	   font-size:18px;
+	   font-family:'Adobe Garamond Pro', Tahoma, Arial;
+	   font-weight:bold;
+	   color:#d79116;
+	   letter-spacing:1px;
+	}
+
+#footer{
+	width:600px;
+	height:25px;
+	margin:0 auto;
+	padding:20px;
+	text-align:center;
+	font-size:14px;
+	font-family:'Adobe Garamond Pro', Tahoma, Arial;
+	color:#666;
+}
+#footer a{ color:#777; }
+#footer a:hover{ color:#d79116; }
+	
+	
